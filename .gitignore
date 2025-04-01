@@ -1,0 +1,11 @@
+# Avoid committing data / output files, which are too heavy and crowd the repository
+*.wav
+*.mp4
+*.csv
+*.sac
+
+# Avoid committing temporary files
+*.DS_Store
+*.ipynb_checkpoints
+*.pyc
+__pycache__/
